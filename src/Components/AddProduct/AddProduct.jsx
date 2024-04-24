@@ -32,7 +32,7 @@ const AddProduct = () => {
         let formData = new FormData();
         formData.append('product', image);
 
-        await fetch('http://localhost:4000/upload', {
+        await fetch('https://towntrove-api.onrender.com/upload', {
             method: 'POST',
             headers:{
                 Accept: 'application/json',
@@ -44,7 +44,7 @@ const AddProduct = () => {
         {
             product.image = responseData.image_url;
             console.log(product);
-            await fetch('http://localhost:4000/addproduct', {
+            await fetch('https://towntrove-api.onrender.com/addproduct', {
                 method:'POST',
                 headers:{
                     Accept:'application/json',
