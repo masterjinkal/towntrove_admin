@@ -8,6 +8,11 @@
     background: white;
 }
 
+.navbar p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
 .nav-logo{
     width: 200px;
 }
@@ -21,6 +26,10 @@
         padding: 15px 30px;
     
     }
+    .navbar p{
+        font-size: 18px;
+        font-weight: 400;
+    }
     .nav-logo{
         width: 150px;
     }
@@ -28,4 +37,3 @@
         width: 60px;
     }
 }
-
